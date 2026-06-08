@@ -27,6 +27,6 @@ describe("getAPIKey", () => {
       getAPIKey({
         authorization: "ApiKey abc123",
       } as any),
-    ).toBe("abc123");
+    ).toBe("wrong-key");
   });
 });
