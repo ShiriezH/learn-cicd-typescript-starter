@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { describe, expect, test } from "vitest";
-import { getAPIKey } from "../api/auth";
+import { getAPIKey } from "../api/auth.js";
 
 describe("getAPIKey", () => {
   test("returns null when authorization header is missing", () => {
